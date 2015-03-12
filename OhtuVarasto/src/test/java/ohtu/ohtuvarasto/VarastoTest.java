@@ -87,6 +87,7 @@ public class VarastoTest {
     @Test
     public void negatiivinenOttoPalauttaaNollan(){
         varasto.lisaaVarastoon(5);
+        asd
         assertEquals(0, varasto.otaVarastosta(-10), vertailuTarkkuus);
     }
     
